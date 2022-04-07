@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GoApps</string>
+    <string name="navigation_drawer_open">Buka Menu Navigasi</string>
+    <string name="navigation_drawer_close">Tutup Menu Navigasi</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Main Navigasi</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="menu_home">Tampilan</string>
+    <string name="menu_gallery">Gambar</string>
+    <string name="menu_slideshow">Tayangan Slide</string>
+    <string name="menu_developer">Pengembang</string>
+    <string name="hint_username">Nama Pengguna</string>
+    <string name="hint_password">Kata Sandi</string>
+    <string name="tv_createaccount">Buat Akun Baru !</string>
+    <string name="tv_silahkan">Silahkan login untuk memakai aplikasi</string>
+    <string name="img_logo">Logo</string>
+</resources>

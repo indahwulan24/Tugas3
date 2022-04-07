@@ -31,30 +31,31 @@
             android:layout_height="wrap_content"/>
 
         <EditText
-            android:inputType="text"
-            android:autofillHints="@string/hint_username"
-            android:hint="@string/hint_username"
-            android:textAlignment="center"
-            android:drawableStart="@drawable/ic_username"
             android:id="@+id/etUsername"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/tvsilahkan"
-            android:layout_marginBottom="@dimen/fab_margin"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvsilahkan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:autofillHints="@string/hint_username"
+            android:drawableStart="@drawable/ic_username"
+            android:hint="@string/hint_username"
+            android:inputType="text"
+            android:textAlignment="center" />
 
         <EditText
-            android:autofillHints="@string/hint_password"
-            android:inputType="textPassword"
-            android:hint="@string/hint_password"
-            android:textAlignment="center"
-            android:drawableStart="@drawable/ic_password"
             android:id="@+id/etPassword"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/etUsername"
-            android:layout_marginBottom="@dimen/fab_margin"
             android:layout_width="180dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etUsername"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:autofillHints="@string/hint_password"
+            android:drawableStart="@drawable/ic_password"
+            android:drawableEnd="@drawable/ic_visibility"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
 
         <ImageButton
             android:background="@drawable/btn_sign_in"
